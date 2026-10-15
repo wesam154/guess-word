@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="Utf-8"/>
+        <meta name="viewPort"content="width=device-width,initial-scale=1,0"/>
+        <link rel="stylesheet"href="guess.css">
+        <title>guess word game</title>
+    </head>
+    <body>
+        <h1></h1>
+        <div class="guess-game">
+            <div class="game-area">
+                <div class="input">
+                    <div class="try-1">
+                        <span>try 1</span>
+                        <input  class="yes-in-place"type="text"id="guess-1-letter-1"maxLength="1">
+                        <input type="text"id="guess-1-letter-2"maxLength="1">
+                        <input type="text"id="guess-1-letter-3"maxLength="1">
+                        <input type="text"id="guess-1-letter-4"maxLength="1">
+                        <input type="text"id="guess-1-letter-5"maxLength="1">
+                        <input type="text"id="guess-1-letter-6"maxLength="1">
+                    </div>
+                    <div class="try2 disabled-inputs">
+                        <span>try2</span>
+                        <input type="text"id="guess-2-letter-1"maxLength="1">
+                        <input type="text"id="guess-2-letter-2"maxLength="1">
+                        <input type="text"id="guess-2-letter-3"maxLength="1">
+                        <input type="text"id="guess-2-letter-4"maxLength="1">
+                        <input type="text"id="guess-2-letter-5"maxLength="1">
+                        <input type="text"id="guess-2-letter-6"maxLength="1">
+                    </div>
+                    <div class="try3 disabled-inputs">
+                        <span>try3</span>
+                        <input type="text"id="guess-3-letter-1"maxLength="1">
+                        <input type="text"id="guess-3-letter-2"maxLength="1">
+                        <input type="text"id="guess-3-letter-3"maxLength="1">
+                        <input type="text"id="guess-3-letter-4"maxLength="1">
+                        <input type="text"id="guess-3-letter-5"maxLength="1">
+                        <input type="text"id="guess-3-letter-6"maxLength="1">
+                    </div>
+                    <div class="try4 disabled-inputs">
+                        <span>try4</span>
+                        <input type="text"id="guess-4-letter-1"maxLength="1">
+                        <input type="text"id="guess-4-letter-2"maxLength="1">
+                        <input type="text"id="guess-4-letter-3"maxLength="1">
+                        <input type="text"id="guess-4-letter-4"maxLength="1">
+                        <input type="text"id="guess-4-letter-5"maxLength="1">
+                        <input type="text"id="guess-4-letter-6"maxLength="1">
+                    </div>
+                    <div class="try5 disabled-inputs">
+                        <span>try5</span>
+                        <input type="text"id="guess-5-letter-1"maxLength="1">
+                        <input type="text"id="guess-5-letter-2"maxLength="1">
+                        <input type="text"id="guess-5-letter-3"maxLength="1">
+                        <input type="text"id="guess-5-letter-4"maxLength="1">
+                        <input type="text"id="guess-5-letter-5"maxLength="1">
+                        <input type="text"id="guess-5-letter-6"maxLength="1">
+                    </div>
+                    <div class="try6 disabled-inputs">
+                        <span>try6</span>
+                        <input type="text"id="guess-6-letter-1"maxLength="1">
+                        <input type="text"id="guess-6-letter-2"maxLength="1">
+                        <input type="text"id="guess-6-letter-3"maxLength="1">
+                        <input type="text"id="guess-6-letter-4"maxLength="1">
+                        <input type="text"id="guess-6-letter-5"maxLength="1">
+                        <input type="text"id="guess-6-letter-6"maxLength="1">
+                    </div>
+                </div>
+                <div class="control">
+                    <button class="check">Check word</button>
+                    <button class="hint"><span></span>Hint</button>
+                </div>
+                <div class="message"></div>
+            </div>
+            <div class="key-color">
+                <h2>key colors</h2>
+                <div class="key-color">
+                    <div class="key in-place"></div>
+                    <div class="key-text">Letter Is Correct and In PLace</div>
+                </div>
+                <div class="key-color">
+                    <div class="key not-in-place"></div>
+                    <div class="key-text">Letter Is Correct But Not In Place</div>
+                </div>
+                <div class="key-color">
+                    <div class="key no"></div>
+                    <div class="key-text">Letter Is Wrong</div>
+                </div>
+            </div>
+        </div>
+        <footer></footer>
+        <script src="guess.js"></script>
+    </body>
+</html>
